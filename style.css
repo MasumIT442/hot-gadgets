@@ -13,7 +13,8 @@
 }
 .categories{
     text-align: center;
-    text-underline-position: below;
+    border-bottom: 5px solid yellowgreen;
+    border-width: 10%;
 }
 .categories, h3{
     margin-left: 30px;
@@ -23,3 +24,12 @@
     border-radius: 0px 10px 5px 20px;
     padding:50px 50px;
 }
+.carousel-indicators .active{
+    background-color:red!important;
+    }
+    .carousel-indicators li{
+    background-color:black!important;
+    width: 30px;
+    height: 30px;
+    border-radius: 30%;
+    }
